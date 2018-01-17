@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  	<groups>
+  		<run>
+  			<exclude name="Positive"/>
+  		</run>
+  	</groups>
+  	
+    <classes>
+      <parameters name="sqrtValue" value="49" />
+      <class name="com.mentoring.tests.TestCalculator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

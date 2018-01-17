@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Positive"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mentoring.tests.TestCalculator">
+        <methods>
+          <include name="squareRoot" invocation-numbers="0 0"/>
+          <include name="multiplication" invocation-numbers="0 1 0 1"/>
+          <include name="subtract" invocation-numbers="0 1 0 1"/>
+          <include name="division" invocation-numbers="0 1 0 1"/>
+          <include name="addition" invocation-numbers="0 1 0 1"/>
+        </methods>
+      </class> <!-- com.mentoring.tests.TestCalculator -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
